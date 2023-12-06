@@ -1,4 +1,5 @@
 import org.example.CountDoku;
+import org.example.DarthValidator;
 
 public class Main {
 
@@ -33,6 +34,14 @@ public class Main {
         luke.incrementInstanceCount();
         luke.incrementCount();
         System.out.println(luke);
+
+        System.out.println(DarthValidator.add(12,15));
+
+        System.out.println(DarthValidator.multiply(15,16));
+
+        System.out.println(DarthValidator.division(612,0));
+
+        System.out.println(DarthValidator.substraction(-35,50));
 
     }
 
